@@ -89,7 +89,7 @@ The program reads a parameter file <code>JUMPt.params</code> (MATLAB & Python sh
 <b>MATLAB:</b> Launch MATLAB and open the main program file (e.g., <code>Run_Main_File.m</code>). Press “Run” to start. The console displays bin progress and completion. <br><br>
 <b>Python (CLI):</b> <br>
 • Prepare <code>JUMPt_python.params</code> (same keys as above). <br>
-• Run: <code>python jumpt_python_matched.py --params JUMPt_python.params</code> <br>
+• Run: <code>python jumpt_python.py --params JUMPt_python.params</code> <br>
 The Python CLI produces the same outputs (including a <i>parameter_file</i> sheet for provenance) and mirrors MATLAB Setting-2 behavior with deterministic results. <br><br>
 <b>Note:</b> Nonlinear ODE fitting is computationally intensive for large proteomes; JUMPt bins proteins (e.g., 10–100 per batch) to manage runtime and memory.
 </div>
