@@ -23,7 +23,7 @@
 
 ## Introduction <br>
 <div align="justify"> 
-JUMPt (JUMP (Jumbo Mass Spectrometry-based Proteomics)-turnover) software determines protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a recycling-aware differential equation model that jointly fits the dynamics of unlabeled free Lys and protein-bound Lys to estimate accurate, per-protein half-lives (“Corrected half-life”). The program can also compute apparent half-lives via exponential fits for quick screening. <br>
+JUMPt (Jumbo Mass Spectrometry-based Proteomics-turnover) software determines protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a recycling-aware differential equation model that jointly fits the dynamics of unlabeled free Lys and protein-bound Lys to estimate accurate, per-protein half-lives (“Corrected half-life”). The program can also compute apparent half-lives via exponential fits for quick screening. <br>
 Version 1.1.1 focuses on <b>deterministic, reproducible results</b> and introduces a <b>robust, fast Python implementation</b> alongside MATLAB.
 </div>
 
@@ -71,7 +71,7 @@ By default, <b>Setting-2</b> is used (free-Lys labeling timecourse + protein lab
 ## Update the parameter file <br>
 <div align="justify"> 
 The program reads a parameter file <code>JUMPt.params</code> (MATLAB & Python share the same keys). Specify: <br>
-• JUMPt setting (1/2/3; default: 2) <br>
+• JUMPt setting-2 <br>
 • Input file name (full path) <br>
 • Bin size (<code>bin_size</code>) <br>
 • Number of time points <br>
@@ -118,7 +118,7 @@ Two output Excel files are generated with the prefix <code>results_Corrected_T50
 ## Maintainers <br>
 <div align="justify">
 For bug reports and feature suggestions, please open a GitHub issue on this repository.  
-You may also contact <b>Dr. Abhijit Dasgupta</b> at <code>abhijit.dasgupta@stjude.org</code>.
+You may also contact <b>Dr. Abhijit Dasgupta</b> at <code>abhijitju06@gmail.com</code>.
 </div>
 
 ## Acknowledgment <br>
@@ -135,4 +135,6 @@ We acknowledge St. Jude Children's Research Hospital, ALSAC (American Lebanese S
 5. Tan, H., et al., Integrative proteomics and phosphoproteomics profiling reveals dynamic signaling networks and bioenergetics pathways underlying T cell activation. Immunity, 2017. 46(3): 488–503. <br>
 6. Peng, J., et al., Evaluation of multidimensional chromatography coupled with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein analysis: the yeast proteome. Journal of Proteome Research, 2003. 2(1): 43–50. <br>
 7. Niu, M., et al., Extensive peptide fractionation and y1 ion-based interference detection method for enabling accurate quantification by isobaric labeling and mass spectrometry. Analytical Chemistry, 2017. 89(5): 2956–2963.
+8. Li, Wenxue, et al. "Turnover atlas of proteome and phosphoproteome across mouse tissues and brain regions." Cell 188.8 (2025): 2267-2287.
+9. Yarbro, Jay M., et al. "Human and mouse proteomics reveals the shared pathways in Alzheimer’s disease and delayed protein turnover in the amyloidome." Nature communications 16.1 (2025): 1533.
 </div>
