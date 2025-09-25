@@ -36,7 +36,7 @@ In this version: <br>
 4. <b>Apparent T50 fix</b> — positivity-constrained exponential fits eliminate negative/invalid apparent half-lives. <br>
 5. <b>I/O hardening</b> — more robust Excel parsing (auto-detects time row and free-Lys row), version-stamped outputs, and a full parameter provenance sheet saved with results. <br>
 6. <b>Python implementation</b> — a fast, deterministic CLI mirroring MATLAB Setting-2 behavior using exact LTI propagation (matrix exponential) and the same optimization workflow. <br>
-7. <b>Compatibility</b> — supports 3, 4, or 5 time points (including 0 days) and Settings 1–3; Setting-2 remains the default.
+7. <b>Compatibility</b> — supports 3, 4, or 5 time points (including 0 days) and only Setting-2.
 </div>
 
 ## Software and Hardware Requirements <br>
@@ -62,11 +62,9 @@ The MATLAB implementation runs on Linux, macOS, or Windows with MATLAB R2014 or 
 
 ## Input File Preparation <br>
 <div align="justify"> 
-Testing datasets are provided for each setting. Prepare input data similarly, including: <br>
+Testing datasets are provided for different time points. Prepare input data similarly, including: <br>
 • pSILAC proteins (mandatory) <br>
-• pSILAC free (unbound) Lys (required for Setting-2 and Setting-3) <br>
-• Free Lys concentration (used in Setting-3) <br>
-• Lys concentration in individual proteins (optional; used in Setting-3) <br>
+• pSILAC free (unbound) Lys (required for Setting-2) <br>
 By default, <b>Setting-2</b> is used (free-Lys labeling timecourse + protein labeling timecourses).
 </div>
 
