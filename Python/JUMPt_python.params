@@ -1,0 +1,35 @@
+# === JUMPt_python.params (Dr. Abhijit Dasgupta) ===
+
+# REQUIRED
+input_file = input_setting_2_3TP.xlsx
+
+# DESIGN / DATA
+number_of_timepoints = 3
+bin_size = 30
+purity_of_SILAC_food = 99.0        # % heavy in food (θ_FH); impurity θ_FL = 1 - purity/100
+
+# BOUNDS (keep as in MATLAB run)
+alphaUB = 0.10
+hl_tmin_days = 0.03
+hl_tmax_days = 100.0
+hl_A_min_days = 1.0
+hl_A_max_days = 100.0
+
+# PHYSICS + QC
+disable_physics_filter = 1         # IMPORTANT: OFF to reproduce <0.5 d cases 
+physics_filter_mode = clip         # ignored if disable_physics_filter=1
+min_observations_per_protein = 2   # allow 2-point proteins (common in your sheet)
+
+# WEIGHTS & INITIAL CONDITION
+free_lys_weight_mode = matlab      # sets wF = M/5 per bin 
+initial_condition_mode = data      # use first observation at t0 if present
+
+# ORDERING
+sort_by_apparent_t50 = 0           # keep original input order (closer to MATLAB binning)
+
+# SOLVER / REPRODUCIBILITY
+apparent_T50_calculation = 1
+random_seed = 12345
+n_starts = 20
+max_nfev_global = 800
+max_nfev_refine = 400
