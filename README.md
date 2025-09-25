@@ -71,7 +71,6 @@ By default, <b>Setting-2</b> is used (free-Lys labeling timecourse + protein lab
 ## Update the parameter file <br>
 <div align="justify"> 
 The program reads a parameter file <code>JUMPt.params</code> (MATLAB & Python share the same keys). Specify: <br>
-• JUMPt setting-2 <br>
 • Input file name (full path) <br>
 • Bin size (<code>bin_size</code>) <br>
 • Number of time points <br>
