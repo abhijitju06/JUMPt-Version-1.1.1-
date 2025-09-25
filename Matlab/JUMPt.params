@@ -1,0 +1,38 @@
+%% JUMPt.params (Matlab) (Version 1.1.1)
+% Parameter file for JUMPt Setting-2 analysis
+% Save this file as "JUMPt.params" in the same folder as Run_Main_File.m
+% Author: Dr. Abhijit Dasgupta and Abhisek Bakshi
+
+%% -------- Input / Output --------
+input_file               = 'input_setting_2_3TP.xlsx';   % Excel input file (pSILAC data)
+output_folder            = pwd;                             % where results will be written
+
+%% -------- Binning --------
+bin_size                 = 30;    % number of proteins/peptides per bin (set Inf to use all in one bin)
+number_of_timepoints     = 3;     % number of pulse-SILAC time points (should match input Excel)
+
+%% -------- SILAC food purity --------
+purity_of_SILAC_food     = 99;    % % heavy Lys in SILAC food
+                                  % Example: 99 → food contains 99% heavy Lys, so theta_FL = 0.01
+
+%% -------- Half-life fitting windows (Please do not edit) --------
+hl_tmin_days             = 0.03;  % minimum half-life considered (days) ≈ 45 minutes
+hl_tmax_days             = 500;   % maximum half-life considered (days)
+hl_A_min_days            = 1.0;   % minimum half-life for the free Lys pool (days)
+
+%% -------- Optimizer seeds / bounds (Please do not edit) --------
+seedHalfLifeDays         = 5;     % initial guess for half-life (days)
+alphaUB                  = 0.1;   % upper bound for feedback parameter α (0 disables feedback)
+                                  % Set to 0.0 if you want to ignore feedback altogether
+
+%% -------- Optional flags --------
+apparent_T50_calculation = 0;      % 1 → compute apparent T50 and export
+                                   % 0 → skip apparent T50 calculation
+rng_seed                 = 123456; % seed for random number generator (ensures reproducibility)
+
+%% -------- Advanced options (Please do not edit) --------
+hl_driver_max            = 50;    % maximum half-life for “driver-only” model (days)
+ode_solver               = 'ode15s'; % ODE solver to use (default = ode15s, stiff system)
+
+disable_physics_filter = 1;   
+show_progress = 1;            % keep the waitbar=1 otherwise 0
