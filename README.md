@@ -134,7 +134,7 @@ We acknowledge St. Jude Children's Research Hospital, ALSAC (American Lebanese S
 4. Li, Y., et al., JUMPg: an integrative proteogenomics pipeline identifying unannotated proteins in human brain and cancer cells. Journal of Proteome Research, 2016. 15(7): 2309–2320. <br>
 5. Tan, H., et al., Integrative proteomics and phosphoproteomics profiling reveals dynamic signaling networks and bioenergetics pathways underlying T cell activation. Immunity, 2017. 46(3): 488–503. <br>
 6. Peng, J., et al., Evaluation of multidimensional chromatography coupled with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein analysis: the yeast proteome. Journal of Proteome Research, 2003. 2(1): 43–50. <br>
-7. Niu, M., et al., Extensive peptide fractionation and y1 ion-based interference detection method for enabling accurate quantification by isobaric labeling and mass spectrometry. Analytical Chemistry, 2017. 89(5): 2956–2963.
-8. Li, Wenxue, et al. "Turnover atlas of proteome and phosphoproteome across mouse tissues and brain regions." Cell 188.8 (2025): 2267-2287.
+7. Niu, M., et al., Extensive peptide fractionation and y1 ion-based interference detection method for enabling accurate quantification by isobaric labeling and mass spectrometry. Analytical Chemistry, 2017. 89(5): 2956–2963.  <br>
+8. Li, Wenxue, et al. "Turnover atlas of proteome and phosphoproteome across mouse tissues and brain regions." Cell 188.8 (2025): 2267-2287.  <br>
 9. Yarbro, Jay M., et al. "Human and mouse proteomics reveals the shared pathways in Alzheimer’s disease and delayed protein turnover in the amyloidome." Nature communications 16.1 (2025): 1533.
 </div>
