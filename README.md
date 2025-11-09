@@ -24,7 +24,7 @@
 ## Introduction <br>
 <div align="justify"> 
 JUMPt (Jumbo Mass Spectrometry-based Proteomics-turnover) software determines protein turnover rates in pulse SILAC-labeled animals using mass spectrometry (MS) data. JUMPt uses a recycling-aware differential equation model that jointly fits the dynamics of unlabeled free Lys and protein-bound Lys to estimate accurate, per-protein half-lives (“Corrected half-life”). The program can also compute apparent half-lives via exponential fits for quick screening. <br>
-Version 1.1.1 focuses on <b>deterministic, reproducible results</b> and introduces a <b>robust, fast Python implementation</b> alongside MATLAB. However, the current version supports only _in vivo_ data where pulse time is in days. It does not work for _in vitro_ data where pulse time is in hours.
+Version 1.1.1 focuses on <b>deterministic, reproducible results</b> and introduces a <b>robust, fast Python implementation</b> alongside MATLAB. However, the current version supports only _ in vivo _ data where pulse time is in days. It does not work for _ in vitro _ data where pulse time is in hours.
 </div>
 
 ## Release notes (Version 1.1.1) <br>
