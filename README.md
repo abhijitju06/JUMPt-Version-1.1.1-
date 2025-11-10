@@ -4,6 +4,7 @@
 > **⚠️ Important:** This repository is for **JUMPt Version 1.1.1**.  
 > The latest is **JUMPt Version 1.2.0** → **[Go to the new repository](https://github.com/abhijitju06/JUMPt-Version-1.2.0-Python-Edition-)**.  
 > Use Version 1.2.0 for deterministic dual–time–unit implementation (supports both hours and days) with complete Python-based reproducibility.
+> 
 > Looking for the previous release? **JUMPt Version 1.1.0** → **[Go to the older repository](https://github.com/abhijitju06/JUMPt-Version-1.1.0)**.
 
 # JUMPt Version 1.1.1
